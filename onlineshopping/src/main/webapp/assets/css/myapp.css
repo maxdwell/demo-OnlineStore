@@ -65,7 +65,8 @@ footer {
 
 .wrapper {	
 	min-height:100%;
-	position: relative;
+    position: relative;
+    color:#003152;
 }
 
 
@@ -127,7 +128,7 @@ footer {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #f7f2f2;
   -webkit-transition: .4s;
   transition: .4s;
 }

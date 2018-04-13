@@ -1,7 +1,4 @@
-package net.kzn.onlineshopping.controller;
-
-import java.io.PrintWriter;
-import java.io.StringWriter;
+package net.bw.onlineshopping.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,11 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import net.kzn.onlineshopping.exception.ProductNotFoundException;
-import net.kzn.shoppingbackend.dao.CategoryDAO;
-import net.kzn.shoppingbackend.dao.ProductDAO;
-import net.kzn.shoppingbackend.dto.Category;
-import net.kzn.shoppingbackend.dto.Product;
+import net.bw.onlineshopping.exception.ProductNotFoundException;
+import net.bw.shoppingbackend.dao.CategoryDAO;
+import net.bw.shoppingbackend.dao.ProductDAO;
+import net.bw.shoppingbackend.dto.Category;
+import net.bw.shoppingbackend.dto.Product;
 
 @Controller
 public class PageController {
@@ -73,7 +70,7 @@ public class PageController {
 	
 	
 	/*
-	 * Methods to load all the products and based on category
+	 * Methods to load all the products based on category
 	 * */
 	
 	@RequestMapping(value = "/show/all/products")
@@ -111,7 +108,7 @@ public class PageController {
 	
 	
 	/*
-	 * Viewing a single product
+	 * View a single product
 	 * */
 	
 	@RequestMapping(value = "/show/{id}/product") 

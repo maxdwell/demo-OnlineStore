@@ -12,8 +12,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
-            </div>
+                <a class="navbar-brand" href="${contextRoot}/home"><font color = "#1D2951">ByteShopping</font></a>
+            	</div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -26,7 +26,7 @@
                     </li>
                     
                     <li id="listProducts">
-                        <a href="${contextRoot}/show/all/products">View Products</a>
+                        <a href="${contextRoot}/show/all/products">View All Products</a>
                     </li>
 					<security:authorize access="hasAuthority('ADMIN')">
 	                    <li id="manageProduct">
@@ -54,7 +54,7 @@
 		                    <security:authorize access="hasAuthority('USER')">
 			                    <li id="cart">
 			                        <a href="${contextRoot}/cart/show">
-			                        	<span class="glyphicon glyphicon-shopping-cart"></span>&#160;<span class="badge">${userModel.cart.cartLines}</span> - &#8377; ${userModel.cart.grandTotal} 
+			                        	<span class="glyphicon glyphicon-shopping-cart"></span>&#160;<span class="badge">${userModel.cart.cartLines}</span> - 	; ${userModel.cart.grandTotal} 
 			                        </a>
 			                    </li>		     
 			                	<li role="separator" class="divider"></li>	                                   

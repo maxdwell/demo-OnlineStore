@@ -1,4 +1,4 @@
-<p class="lead">Shop Name</p>
+<p class="lead"></p><h1>BW Online Store Demo</h1><font size = "2">demo online store by for BW by maxwell</font></p>
 
 
 

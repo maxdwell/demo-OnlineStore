@@ -3,7 +3,7 @@
 	<div class="row">
 
 
-		<!-- Would be to display sidebar -->
+		<!-- Would be able to display sidebar -->
 		<div class="col-md-3">
 
 			<%@include file="./shared/sidebar.jsp"%>

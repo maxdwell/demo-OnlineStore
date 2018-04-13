@@ -1,4 +1,4 @@
-package net.kzn.onlineshopping.handler;
+package net.bw.onlineshopping.handler;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.binding.message.MessageBuilder;
@@ -6,11 +6,11 @@ import org.springframework.binding.message.MessageContext;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import net.kzn.onlineshopping.model.RegisterModel;
-import net.kzn.shoppingbackend.dao.UserDAO;
-import net.kzn.shoppingbackend.dto.Address;
-import net.kzn.shoppingbackend.dto.Cart;
-import net.kzn.shoppingbackend.dto.User;
+import net.bw.onlineshopping.model.RegisterModel;
+import net.bw.shoppingbackend.dao.UserDAO;
+import net.bw.shoppingbackend.dto.Address;
+import net.bw.shoppingbackend.dto.Cart;
+import net.bw.shoppingbackend.dto.User;
 
 @Component
 public class RegisterHandler {
